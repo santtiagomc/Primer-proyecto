@@ -57,7 +57,7 @@ body {
     width: 80vw;
     font-size: var(--lg);
     border-radius: 5px;
-    color: var(--white);
+    color: var(--very-light-yellow);
 }
 #article-p {
     color: var(--very-light-yellow);
