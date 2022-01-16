@@ -1,0 +1,104 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-blue: #F5EEDC;
+    --very-light-pink: #DD4A48;
+    --very-light-yellow: #4F091D;
+    --font: #97BFB4;
+    --sm: 12px;
+    --md: 18px;
+    --lg: 24px;
+    --elg: 32px
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--font);
+}
+#main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#header-principal {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: var(--elg);
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    color: var(--very-light-yellow);
+    background-color: var(--very-light-blue);
+}
+.nav-item {
+    display: inline-block;
+    font-size: var(--lg);
+    margin: 25px;
+}
+.nav-item a {
+    text-decoration: none;
+    background-color: var(--very-light-pink);
+    color: var(--white);
+    border-radius: 5px; 
+    border: 0.1rem solid var(--black);
+    padding: 8px;
+}
+#container2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+#header-article {
+    background-color: var(--very-light-pink);
+    width: 80vw;
+    font-size: var(--lg);
+    border-radius: 5px;
+}
+#article-p {
+    color: var(--very-light-yellow);
+    background-color: var(--very-light-blue);
+    margin-top: 5px;
+    height: 160px;
+    width: 80vw;
+    font-size: var(--md);
+    border-radius: 10px;
+}
+#section-article {
+    margin-top: 5px;
+    background-color: var(--very-light-blue);
+    font-size: var(--lg);
+    width: 80vw;
+    border-radius: 10px;
+}
+#footer-article {
+    margin-top: 5px;
+    background-color: var(--very-light-pink);
+    font-size: var(--lg);
+    width: 80vw;
+    border-radius: 10px;
+}
+#footer {
+    text-align: center;
+    font-size: var(--lg);
+    background-color: var(--very-light-pink);
+    border-radius: 10px;
+    padding: 10px;
+}
+@media (max-width: 400px) {
+    #article-p {
+        height: 420px;
+    }
+    #section-article {
+        height: 200px;
+    }
+    .nav-item {
+        margin: 12px;
+    }
+    .nav-item a {
+        padding: 3px;
+    }
+}
