@@ -90,7 +90,7 @@ body {
 }
 @media (max-width: 400px) {
     #article-p {
-        height: 420px;
+        height: 480px;
     }
     #section-article {
         height: 200px;
