@@ -62,7 +62,7 @@ body {
     color: var(--very-light-yellow);
     background-color: var(--very-light-blue);
     margin-top: 5px;
-    height: 160px;
+    height: 40vh;
     width: 80vw;
     font-size: var(--md);
     border-radius: 10px;
@@ -88,7 +88,7 @@ body {
     border-radius: 10px;
     padding: 10px;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     #article-p {
         height: 480px;
     }
